@@ -1,0 +1,179 @@
+ body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Recursive';
+        }
+        .hero{
+            background-image: url('form_bg/bg.jpg');
+
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background: #ffffff;
+            width: 1000px;
+            display: flex;
+        }
+        .reg-form{
+            width: 600px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+        .girl-img{
+            width: 500px;
+            overflow: hidden;
+            position: relative;
+        }
+        .girl-img img{
+            position: absolute;
+            width: 470px;
+            top:180px;
+            left:-15px;
+        }
+        .girl-img .imgg{
+            position: absolute;
+            width: 300px;
+            top:450px;
+            margin-left:100px;
+
+        }
+        .form-header{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+        .form-header span:nth-child(1){
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .input-container{
+            position: relative;
+            margin: 20px 0;
+        }
+        .input-container label{
+            position: absolute;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #cecece;
+            width: 100%;
+            display: block;
+            z-index: 0;
+            bottom: 5px;
+            transition: all 0.1s ease-in-out;
+        }
+        .input-container.active label{
+            bottom: 25px;
+        }
+        .input-container .input{
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #cecece;
+            cursor: text;
+            width: 100%;
+            position: relative;
+            background: transparent;
+            box-sizing: border-box;
+            padding: 5px 0;
+            font-family: 'Recursive';
+            font-weight: 500;
+        }
+        .signup-btn{
+            text-transform: uppercase;
+            color: #ffffff;
+            font-family: 'Recursive';
+            font-weight: 500;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            background: #f44336;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-radius: 30px;
+            font-size: 12px;
+        }
+        .form-footer a{
+            text-decoration: none;
+            color: #666666;
+            font-size: 12px;
+            display: inline-block;
+            margin: 0 10px;
+            border-bottom: 2px solid #f44336;
+        }
+        .social-media{
+            margin-top: 20px;
+        }
+        .social-media span{
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .social-media a{
+            text-decoration: none;
+            color: #333333;
+            display: inline-block;
+            margin: 0 5px;
+        }
+        #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 3px 35px;
+    font-size: 15px;
+}
+
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+
+}
+
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+
+}
+
+.option{
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #cecece;
+}
+
+        #text0{
+    display: block;
+    color: #000;
+    font-weight: 500px;
+    font-style: italic
+}
+.Shang{
+    display:none;
+}
+
+        @media screen and (max-width: 600px){
+            .card{
+                width: 100%;
+                margin: 0 20px;
+            }
+            .card .girl-img{
+                display: none;
+            }
+        }

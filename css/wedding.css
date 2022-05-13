@@ -1,0 +1,131 @@
+.main{
+
+ margin: 1%;
+}
+
+.card{
+    display: block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+        margin: 2%;
+     float: left;
+     width: 29%;
+
+
+    }
+.card1{
+
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+      margin-top:40px;
+     float: right;
+     width: 29.2%;
+       margin: 2%;
+    }
+.card:hover{
+     transform: scale(1.05,1.05);
+}
+
+.card1:hover{
+     transform: scale(1.05,1.05);
+}
+
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+
+
+ }
+
+.title{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+.hall{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+
+  padding-top: 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+
+
+.carousel .background {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+@media (max-width:991px) {
+  .carousel .background {
+    background-size: cover;
+  }
+}
+
+.carousel .background.a {
+  background-image:  url("wedding/bg.jpg");
+}
+
+
+.covertext {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  right: 0px;
+}
+
+.titles {
+  font-family: Verdana;
+  font-weight: 600;
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  margin-top:100px;
+}
+
+.subtitle {
+  font-family: Verdana;
+  font-size: 20px;
+  color: #00FF00;
+  text-align: center;
+}
+
+ .sociall{
+    width: 20px;
+    height: auto;
+
+}
+a{
+    color:#000;
+}
+a:hover{
+    color:white;
+}
